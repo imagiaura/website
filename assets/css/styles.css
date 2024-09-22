@@ -10,9 +10,17 @@ a {
   text-decoration: none;
 }
 
+element.style {
+  background: none;
+}
+
+section {
+  background: black;
+}
+
 @media (min-width: 768px) {
   section {
-    background: url("../../assets/img/bgelement2.png") center / contain no-repeat;
+    background: #000;
   }
 }
 
