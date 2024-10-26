@@ -1,0 +1,75 @@
+<html><head>
+<meta charset="UTF-8">
+<title>Thank You for Your Donation - Imagiaura</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0a0a0a;
+        color: #ffffff;
+        font-family: 'League Spartan', sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        animation: fadeIn 1.5s ease-in;
+    }
+
+    .main-text {
+        font-size: 3.5rem;
+        //font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .sub-text {
+        font-size: 1.5rem;
+        color: #9a9a9a;
+        max-width: 600px;
+        line-height: 1.4;
+        padding: 0 1rem;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .main-text {
+            font-size: 2.5rem;
+        }
+        .sub-text {
+            font-size: 1.2rem;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-text">Thank you very much for donating!</div>
+        <div class="sub-text">We greatly appreciate your contribution. Your donation will be used to help fund Imagiaura.</div>
+    </div>
+</body>
+</html>
